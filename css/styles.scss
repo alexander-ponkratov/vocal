@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.text {
+    font-size: 1rem;
+}
+
+header {
+    display: grid;
+    height: 9.313rem;
+    grid-template-columns: minmax(6.25rem, 1fr) minmax(44.813rem, 1fr) minmax(10.6875rem, 1fr);
+
+    .logo {
+        width: 6.25rem;
+        height: 6rem;
+        background-image: url("../Group\ 1418.png");
+        justify-self: end;
+    }
+    .menu {
+        width: 44.813rem;
+        height: 2.5rem;
+        align-self: center;
+    }
+    .header-button {
+        width: 10.6875rem;
+        height: 3.625rem;
+    }
+}

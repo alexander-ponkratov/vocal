@@ -1,1 +1,38 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  height: 9.313rem;
+  -ms-grid-columns: minmax(6.25rem, 1fr) minmax(44.813rem, 1fr) minmax(10.6875rem, 1fr);
+      grid-template-columns: minmax(6.25rem, 1fr) minmax(44.813rem, 1fr) minmax(10.6875rem, 1fr);
+}
+
+header .logo {
+  width: 6.25rem;
+  height: 6rem;
+  background-image: url("../Group 1418.png");
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+header .menu {
+  width: 44.813rem;
+  height: 2.5rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+header .header-button {
+  width: 10.6875rem;
+  height: 3.625rem;
+}
+/*# sourceMappingURL=styles.css.map */
