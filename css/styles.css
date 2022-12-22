@@ -3,6 +3,22 @@
           box-sizing: border-box;
 }
 
+body {
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+
 .button-1 {
   background: #ffc53a;
   -webkit-box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.25);
@@ -14,14 +30,16 @@ header {
   display: -ms-grid;
   display: grid;
   height: 9.313rem;
-  -ms-grid-columns: minmax(auto, 25.3125rem) minmax(auto, 65rem) minmax(auto, 29.6875rem);
-      grid-template-columns: minmax(auto, 25.3125rem) minmax(auto, 65rem) minmax(auto, 29.6875rem);
+  -ms-grid-columns: 25.3125rem 65rem 29.6875rem;
+      grid-template-columns: 25.3125rem 65rem 29.6875rem;
 }
 
 header .logo {
   width: 6.25rem;
   height: 6rem;
   background-image: url("../Group 1418.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   -ms-grid-column-align: end;
       justify-self: end;
 }
@@ -29,13 +47,15 @@ header .logo {
 header .menu {
   width: 44.813rem;
   height: 2.5rem;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  left: 12.3125rem;
+  background-color: red;
+  position: relative;
 }
 
 header .header-button {
   width: 10.6875rem;
   height: 3.625rem;
+  -ms-grid-column-align: start;
+      justify-self: start;
 }
 /*# sourceMappingURL=styles.css.map */

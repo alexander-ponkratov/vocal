@@ -2,6 +2,21 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0px auto;
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+}
 
 .button-1 {
     background: #ffc53a;
@@ -12,21 +27,27 @@
 header {
     display: grid;
     height: 9.313rem;
-    grid-template-columns: minmax(auto ,25.3125rem) minmax(auto ,65rem) minmax(auto ,29.6875rem);
+    grid-template-columns: 25.3125rem 65rem 29.6875rem;
 
     .logo {
         width: 6.25rem;
         height: 6rem;
         background-image: url("../Group\ 1418.png");
+        background-size: contain;
+        background-repeat: no-repeat;
         justify-self: end;
     }
     .menu {
         width: 44.813rem;
         height: 2.5rem;
-        align-self: center;
+        left: 12.3125rem;
+        background-color: red;
+        position: relative;
+        
     }
     .header-button {
         width: 10.6875rem;
         height: 3.625rem;
+        justify-self: start;
     }
 }
