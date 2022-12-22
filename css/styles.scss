@@ -1,3 +1,6 @@
+$purple: #161032;
+$yellow: #ffc53a;
+
 * {
     box-sizing: border-box;
 }
@@ -24,30 +27,49 @@ body {
     border-radius: 20px;
 }
 
+.regular-text {
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
 header {
     display: grid;
     height: 9.313rem;
-    grid-template-columns: 25.3125rem 65rem 29.6875rem;
+    grid-template-columns: 21.094vw 54.167vw 24.792vw;
+    background-color: $purple;
 
     .logo {
         width: 6.25rem;
         height: 6rem;
+        top: 1.5rem;
         background-image: url("../Group\ 1418.png");
         background-size: contain;
         background-repeat: no-repeat;
         justify-self: end;
+        position: relative;
     }
     .menu {
+        display: grid;
         width: 44.813rem;
         height: 2.5rem;
         left: 12.3125rem;
-        background-color: red;
         position: relative;
-        
+        gap: 10px;
+        align-items: center;
+        justify-items: center;
+        align-self: center;
+        a {
+            display: contents;
+            text-decoration: none !important;
+            color: $yellow;
+        }
     }
     .header-button {
         width: 10.6875rem;
         height: 3.625rem;
         justify-self: start;
+        align-self: center;       
     }
 }
