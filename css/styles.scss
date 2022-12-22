@@ -2,14 +2,17 @@
     box-sizing: border-box;
 }
 
-.text {
-    font-size: 1rem;
+
+.button-1 {
+    background: #ffc53a;
+    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
 }
 
 header {
     display: grid;
     height: 9.313rem;
-    grid-template-columns: minmax(6.25rem, 1fr) minmax(44.813rem, 1fr) minmax(10.6875rem, 1fr);
+    grid-template-columns: minmax(auto ,25.3125rem) minmax(auto ,65rem) minmax(auto ,29.6875rem);
 
     .logo {
         width: 6.25rem;
