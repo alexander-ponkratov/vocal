@@ -52,16 +52,18 @@ header {
     }
     .menu {
         display: grid;
+        width: 44.8125rem;
+        height: 2.5rem;
+        gap: 1.4063rem;
+        grid-template-columns: repeat(6, auto);
         width: 44.813rem;
         height: 2.5rem;
         left: 12.3125rem;
         position: relative;
-        gap: 10px;
         align-items: center;
         justify-items: center;
         align-self: center;
         a {
-            display: contents;
             text-decoration: none !important;
             color: $yellow;
         }
