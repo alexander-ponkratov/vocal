@@ -126,6 +126,7 @@ header {
         height: 4.3125rem;
         left: 19.0625rem;
         top: 15.1875rem;
+        white-space: normal;
         .public {
             margin-bottom: 1.25rem;
         }
@@ -148,7 +149,6 @@ header {
         }
     }
     .white-pic {
-        float: right;
         width: 36.5rem;
         height: 36.5rem;
         left: 64.1875rem;
