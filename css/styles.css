@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+p {
+  margin: 0;
+}
+
 html {
   font-size: 0.833vw;
 }
@@ -14,6 +18,8 @@ body {
   background: #ffc53a;
   box-shadow: 0.0625rem 0.1875rem 1.25rem rgba(209, 24, 24, 0.25);
   border-radius: 1.25rem;
+  cursor: pointer;
+  border: none;
 }
 
 .regular-text {
@@ -21,6 +27,24 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+}
+
+.regular-text-2 {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.heading-2 {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
 }
 
 header {
@@ -64,6 +88,76 @@ header .header-button {
   height: 3.625rem;
   justify-self: start;
   align-self: center;
+}
+
+.black {
+  position: relative;
+  width: 120rem;
+  height: 52.125rem;
+  background-color: black;
+}
+
+.black .black-text {
+  position: absolute;
+  width: 44.8125rem;
+  height: 4.3125rem;
+  left: 19.0625rem;
+  top: 15.1875rem;
+}
+
+.black .black-text .public {
+  margin-bottom: 1.25rem;
+}
+
+.black .buttons-down {
+  position: absolute;
+  top: 45rem;
+  left: 19.0625rem;
+}
+
+.black .buttons-down .button-v {
+  width: 7.3125rem;
+  height: 3.5rem;
+  margin-right: 1.25rem;
+}
+
+.black .buttons-down .button-o {
+  width: 10.9375rem;
+  height: 3.5rem;
+  border: none;
+  outline: none;
+  position: relative;
+  z-index: 1;
+  border-radius: 1.25rem;
+  background-color: black;
+  color: #ffc53a;
+  background: linear-gradient(180deg, #ffc53a 0%, rgba(255, 197, 58, 0.3) 100%);
+  cursor: pointer;
+}
+
+.black .buttons-down .button-o::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  border-radius: 1.25rem;
+  background-color: black;
+  color: #ffc53a;
+  z-index: -1;
+}
+
+.black .white-pic {
+  float: right;
+  width: 36.5rem;
+  height: 36.5rem;
+  left: 64.1875rem;
+  top: 7.8125rem;
+  position: absolute;
+  background-image: url("../banner-b.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1024px) {
