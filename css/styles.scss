@@ -5,39 +5,43 @@ $yellow: #ffc53a;
     box-sizing: border-box;
 }
 
+html {
+    font-size: 0.833vw;
+}
+
 body {
     margin: 0px auto;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     html {
-        font-size: 14px;
+        font-size: 0.9vw;
     }
 }
 
 @media screen and (max-width: 768px) {
     html {
-        font-size: 12px;
+        font-size: 1vw;
     }
-}
+} */
 
 .button-1 {
     background: #ffc53a;
-    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    box-shadow: .0625rem .1875rem 1.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
 }
 
 .regular-text {
     font-family: "Montserrat Alternates";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 header {
     display: grid;
     height: 9.313rem;
-    grid-template-columns: 21.094vw 54.167vw 24.792vw;
+    grid-template-columns: 25.3125rem 65rem 29.6875rem;
     background-color: $purple;
 
     .logo {
@@ -52,9 +56,9 @@ header {
     }
     .menu {
         display: grid;
-        width: 37.344vw;
+        width: 44.8125rem;
         height: 2.5rem;
-        gap: 1.172vw;
+        gap: 1.4063rem;
         grid-template-columns: repeat(6, auto);
         left: 12.3125rem;
         position: relative;
