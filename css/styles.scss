@@ -25,6 +25,30 @@ body {
     border: none;
 }
 
+.button-2 {
+    border: none;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    border-radius: 1.25rem;
+    background-color: black;
+    color: $yellow;
+    background: linear-gradient(180deg, rgba(255,197,58,1) 0%, rgba(255,197,58,0.3) 100%);
+    cursor: pointer;
+}
+.button-2::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 1.25rem;
+    background-color: black;
+    color: $yellow;
+    z-index: -1;
+}
+
 .regular-text {
     font-family: $font-family;
     font-style: normal;
@@ -73,10 +97,10 @@ header {
         gap: 1.4063rem;
         grid-template-columns: repeat(6, auto);
         left: 12.3125rem;
+        top: 3.375rem;
         position: relative;
         align-items: center;
         justify-items: center;
-        align-self: center;
         a {
             text-decoration: none !important;
             color: $yellow;
@@ -121,27 +145,6 @@ header {
         .button-o {
             width: 10.9375rem;
             height: 3.5rem;
-            border: none;
-            outline: none;
-            position: relative;
-            z-index: 1;
-            border-radius: 1.25rem;
-            background-color: black;
-            color: $yellow;
-            background: linear-gradient(180deg, rgba(255,197,58,1) 0%, rgba(255,197,58,0.3) 100%);
-            cursor: pointer;
-        }
-        .button-o::before {
-            content: "";
-            position: absolute;
-            left: 1px;
-            right: 1px;
-            top: 1px;
-            bottom: 1px;
-            border-radius: 1.25rem;
-            background-color: black;
-            color: $yellow;
-            z-index: -1;
         }
     }
     .white-pic {
