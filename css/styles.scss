@@ -50,6 +50,29 @@ header {
         justify-self: end;
         position: relative;
     }
+   
+    ul {
+        width: 44.813rem;
+        height: 2.5rem;
+        left: 12.3125rem;
+        position: relative;
+        list-style-type: none;
+        align-items: center;
+        justify-items: center;
+        align-self: center;
+        text-align: center;
+        li {
+            display: inline;
+            float: left;
+        }
+        a {
+            display: block;
+            text-decoration: none !important;
+            color: $yellow;
+            padding: .625rem;
+            text-align: center;
+        }
+    }
     .menu {
         display: grid;
         width: 37.344vw;
@@ -72,4 +95,6 @@ header {
         justify-self: start;
         align-self: center;       
     }
+    
 }
+
