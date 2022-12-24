@@ -59,7 +59,7 @@ header .menu {
   display: grid;
   width: 37.344vw;
   height: 2.5rem;
-  gap: 1.4063rem;
+  gap: 1.172vw;
   -ms-grid-columns: (auto)[6];
       grid-template-columns: repeat(6, auto);
   left: 12.3125rem;
