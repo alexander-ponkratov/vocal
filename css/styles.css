@@ -54,35 +54,6 @@ header .logo {
   position: relative;
 }
 
-header ul {
-  width: 44.813rem;
-  height: 2.5rem;
-  left: 12.3125rem;
-  position: relative;
-  list-style-type: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  justify-items: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  text-align: center;
-}
-
-header ul li {
-  display: inline;
-  float: left;
-}
-
-header ul a {
-  display: block;
-  text-decoration: none !important;
-  color: #ffc53a;
-  padding: .625rem;
-  text-align: center;
-}
-
 header .menu {
   display: -ms-grid;
   display: grid;
