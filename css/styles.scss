@@ -75,17 +75,23 @@ header {
     }
     .menu {
         display: grid;
-        width: 44.813rem;
+        width: 37.344vw;
         height: 2.5rem;
+        gap: 1.172vw;
+        grid-template-columns: repeat(6, auto);
         left: 12.3125rem;
         position: relative;
-        gap: 10px;
         align-items: center;
         justify-items: center;
         align-self: center;
         a {
+<<<<<<< HEAD
             display: contents;
             
+=======
+            text-decoration: none !important;
+            color: $yellow;
+>>>>>>> temp
         }
     }
     .header-button {
