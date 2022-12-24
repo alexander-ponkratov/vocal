@@ -163,6 +163,13 @@ header .header-button {
   background-repeat: no-repeat;
 }
 
+.long {
+  width: 120rem;
+  height: 247.125rem;
+  background: url("../Group 1437.jpg");
+  background-position: center;
+}
+
 @media screen and (max-width: 1024px) {
   .regular-text {
     font-size: 14px;
