@@ -57,13 +57,11 @@ header .logo {
 header .menu {
   display: -ms-grid;
   display: grid;
-  width: 44.8125rem;
+  width: 37.344vw;
   height: 2.5rem;
   gap: 1.4063rem;
   -ms-grid-columns: (auto)[6];
       grid-template-columns: repeat(6, auto);
-  width: 44.813rem;
-  height: 2.5rem;
   left: 12.3125rem;
   position: relative;
   -webkit-box-align: center;
