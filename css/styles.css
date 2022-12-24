@@ -10,17 +10,6 @@ body {
   margin: 0px auto;
 }
 
-@media screen and (max-width: 1024px) {
-  .regular-text {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .regular-text {
-    font-size: 12px;
-  }
-}
 .button-1 {
   background: #ffc53a;
   box-shadow: 0.0625rem 0.1875rem 1.25rem rgba(0, 0, 0, 0.25);
@@ -75,5 +64,17 @@ header .header-button {
   height: 3.625rem;
   justify-self: start;
   align-self: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .regular-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .regular-text {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
