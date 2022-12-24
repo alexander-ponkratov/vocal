@@ -161,10 +161,13 @@ header {
 }
 
 .long {
+    position: relative;
     width: 120rem;
     height: 247.125rem;
+    top: 2.0625rem;
     background: url("../Group\ 1437.jpg");
     background-position: center;
+    background-clip: padding-box;
 }
 
 @media screen and (max-width: 1024px) {
