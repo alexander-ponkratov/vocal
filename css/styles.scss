@@ -16,12 +16,15 @@ html {
 body {
     margin: 0px auto;
 }
+button {
+    cursor: pointer;
+    overflow: hidden;
+}
 
 .button-1 {
     background: #ffc53a;
     box-shadow: 0.0625rem 0.1875rem 1.25rem rgba(209, 24, 24, 0.25);
     border-radius: 1.25rem;
-    cursor: pointer;
     border: none;
 }
 
@@ -34,7 +37,6 @@ body {
     background-color: black;
     color: $yellow;
     background: linear-gradient(180deg, rgba(255,197,58,1) 0%, rgba(255,197,58,0.3) 100%);
-    cursor: pointer;
 }
 .button-2::before {
     content: "";

@@ -14,11 +14,15 @@ body {
   margin: 0px auto;
 }
 
+button {
+  cursor: pointer;
+  overflow: hidden;
+}
+
 .button-1 {
   background: #ffc53a;
   box-shadow: 0.0625rem 0.1875rem 1.25rem rgba(209, 24, 24, 0.25);
   border-radius: 1.25rem;
-  cursor: pointer;
   border: none;
 }
 
@@ -31,7 +35,6 @@ body {
   background-color: black;
   color: #ffc53a;
   background: linear-gradient(180deg, #ffc53a 0%, rgba(255, 197, 58, 0.3) 100%);
-  cursor: pointer;
 }
 
 .button-2::before {
@@ -128,6 +131,7 @@ header .header-button {
   height: 4.3125rem;
   left: 19.0625rem;
   top: 15.1875rem;
+  white-space: normal;
 }
 
 .black .black-text .public {
@@ -152,7 +156,6 @@ header .header-button {
 }
 
 .black .white-pic {
-  float: right;
   width: 36.5rem;
   height: 36.5rem;
   left: 64.1875rem;
