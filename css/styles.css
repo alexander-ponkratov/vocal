@@ -102,12 +102,8 @@ header .menu {
 }
 
 header .menu a {
-<<<<<<< HEAD
-  display: contents;
-=======
   text-decoration: none !important;
   color: #ffc53a;
->>>>>>> temp
 }
 
 header .header-button {
