@@ -167,7 +167,9 @@ header .header-button {
 }
 
 .long {
-  position: relative;
+  display: grid;
+  grid-auto-rows: min-content;
+  justify-items: center;
   width: 120rem;
   height: 247.125rem;
   background: url("../group-1.jpg");
@@ -175,9 +177,7 @@ header .header-button {
 }
 
 .long .about {
-  position: absolute;
-  left: 54.8125rem;
-  top: 5rem;
+  padding-top: 5rem;
   color: black;
 }
 
@@ -186,11 +186,8 @@ header .header-button {
   grid-template-columns: repeat(3, auto);
   gap: 5.8125rem;
   align-items: center;
-  position: absolute;
   width: 71.4375rem;
-  height: 26.6875rem;
-  left: 22.6875rem;
-  top: 10.75rem;
+  margin-top: 2.8125rem;
 }
 
 .long .block-1 .block-1-img {
@@ -219,8 +216,8 @@ header .header-button {
 }
 
 .long #block-1__2 {
-  top: 42.6875rem;
-  left: 25.125rem;
+  margin-top: 5.25rem;
+  margin-left: 5.5rem;
 }
 
 .long #block-1__2 .block-1-img {
