@@ -36,7 +36,7 @@ button {
     border-radius: 1.25rem;
     background-color: black;
     color: $yellow;
-    background: linear-gradient(180deg, rgba(255,197,58,1) 0%, rgba(255,197,58,0.3) 100%);
+    background: linear-gradient(180deg, rgba(255, 197, 58, 1) 0%, rgba(255, 197, 58, 0.3) 100%);
 }
 .button-2::before {
     content: "";
@@ -166,10 +166,30 @@ header {
     position: relative;
     width: 120rem;
     height: 247.125rem;
-    top: 2.0625rem;
-    background: url("../Group\ 1437.jpg");
-    background-position: center;
-    background-clip: padding-box;
+    background: url("../group-1.jpg");
+
+    .about {
+        position: absolute;
+        left: 54.8125rem;
+        top: 5rem;
+        color: black;
+    }
+    .block-1 {
+        position: absolute;
+        width: 71.4375rem;
+        height: 26.6875rem;
+        left: 22.6875rem;
+        top: 10.75rem;
+        .block-1-img {
+            position: absolute;
+            width: 30.75rem;
+            height: 26.6875rem;
+            left: 363px;
+            top: 10.75rem;
+        }
+    }
+    .icons-1 {
+    }
 }
 
 @media screen and (max-width: 1024px) {
