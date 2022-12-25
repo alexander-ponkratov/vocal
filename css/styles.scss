@@ -167,6 +167,7 @@ header {
     width: 120rem;
     height: 247.125rem;
     background: url("../group-1.jpg");
+    background-position: center;
 
     .about {
         position: absolute;
@@ -175,20 +176,38 @@ header {
         color: black;
     }
     .block-1 {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 5.8125rem;
+        align-items: center;
         position: absolute;
         width: 71.4375rem;
         height: 26.6875rem;
         left: 22.6875rem;
         top: 10.75rem;
         .block-1-img {
-            position: absolute;
             width: 30.75rem;
             height: 26.6875rem;
-            left: 363px;
-            top: 10.75rem;
         }
     }
     .icons-1 {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        gap: 5.9375rem;
+        width: 1.5rem;
+        height: 16.375rem;
+    }
+
+    .block-1-ul {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        padding: 0;
+        gap: 1.75rem;
+    }
+    .block-1-li {
+        color: black;
+        list-style: none;
+
     }
 }
 
