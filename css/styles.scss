@@ -189,25 +189,36 @@ header {
             width: 30.75rem;
             height: 26.6875rem;
         }
-    }
-    .icons-1 {
-        display: grid;
-        grid-template-rows: repeat(3, auto);
-        gap: 5.9375rem;
-        width: 1.5rem;
-        height: 16.375rem;
+        .icons-1 {
+            display: grid;
+            grid-template-rows: repeat(3, auto);
+            gap: 5.9375rem;
+            width: 1.5rem;
+            height: 16.375rem;
+        }
+
+        .block-1-ul {
+            display: grid;
+            grid-template-rows: repeat(3, auto);
+            padding: 0;
+            gap: 1.75rem;
+        }
+        .block-1-li {
+            color: black;
+            list-style: none;
+        }
     }
 
-    .block-1-ul {
-        display: grid;
-        grid-template-rows: repeat(3, auto);
-        padding: 0;
-        gap: 1.75rem;
-    }
-    .block-1-li {
-        color: black;
-        list-style: none;
-
+    #block-1__2 {
+        top: 42.6875rem;
+        left: 25.125rem;
+        .block-1-img {
+            width: 30.3125rem;
+            height: 17.0625rem;
+        }
+        .block-1-ul {
+            text-align: right;
+        }
     }
 }
 
