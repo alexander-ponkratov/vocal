@@ -229,6 +229,56 @@ header .header-button {
   text-align: right;
 }
 
+.long .courses {
+  margin-top: 10.375rem;
+  color: black;
+}
+
+.long .buy-course {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  width: 67.5rem;
+  margin-top: 5rem;
+  justify-items: center;
+  gap: 2.5rem;
+}
+
+.long .buy-course .course-el {
+  display: grid;
+  justify-items: center;
+}
+
+.long .buy-course .course-el .course-logo {
+  width: 15rem;
+  height: 15rem;
+}
+
+.long .buy-course .course-el .course-text {
+  color: black;
+  text-align: center;
+}
+
+.long .buy-course .course-el .course-button {
+  width: 11.0625rem;
+  height: 3.5rem;
+  margin-top: 0.875rem;
+}
+
+.long .div-line {
+  margin-top: 5rem;
+}
+
+.long .div-line .line {
+  width: 1000px;
+  height: 0px;
+  border: 1px solid #0f0202;
+}
+
+.long .mer {
+  margin-top: 5rem;
+  color: black;
+}
+
 @media screen and (max-width: 1024px) {
   .regular-text {
     font-size: 14px;

@@ -217,6 +217,51 @@ header {
             text-align: right;
         }
     }
+
+    .courses {
+        margin-top: 10.375rem;
+        color: black;
+    }
+
+    .buy-course {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        width: 67.5rem;
+        margin-top: 5rem;
+        justify-items: center;
+        gap: 2.5rem;
+        .course-el {
+            display: grid;
+            justify-items: center;
+            .course-logo {
+                width: 15rem;
+                height: 15rem;
+            }
+            .course-text {
+                color: black;
+                text-align: center;
+            }
+            .course-button {
+                width: 11.0625rem;
+                height: 3.5rem;
+                margin-top: 0.875rem;
+            }
+        }
+    }
+
+    .div-line {
+        margin-top: 5rem;
+        .line {
+            width: 1000px;
+            height: 0px;
+            border: 1px solid #0f0202;
+        }
+    }
+
+    .mer {
+        margin-top: 5rem;
+        color: black;
+    }
 }
 
 @media screen and (max-width: 1024px) {
