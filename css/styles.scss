@@ -97,7 +97,6 @@ header {
         width: 44.8125rem;
         height: 2.5rem;
         gap: 1.4063rem;
-        padding: .625rem;
         grid-template-columns: repeat(6, auto);
         margin-left: 12.3125rem;
         margin-top: 3.375rem;
@@ -263,7 +262,20 @@ header {
         margin-top: 5rem;
         color: black;
     }
+
+    .infog-1-div{
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        gap: 24.6875rem;
+        margin-top: 5.625rem;
+        .infog-1{
+            width: 6.25rem;
+            height: 6.25rem;
+        }
+    }
 }
+
+
 
 @media screen and (max-width: 1024px) {
     .regular-text {
