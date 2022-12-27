@@ -97,9 +97,9 @@ header .menu {
   width: 44.8125rem;
   height: 2.5rem;
   gap: 1.4063rem;
+  padding: .625rem;
   grid-template-columns: repeat(6, auto);
   margin-left: 12.3125rem;
-  margin-right: 7.8125rem;
   margin-top: 3.375rem;
   align-items: center;
   justify-items: center;
