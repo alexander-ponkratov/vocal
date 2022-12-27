@@ -76,21 +76,20 @@ button {
 }
 
 header {
-  display: grid;
+  display: inline-grid;
   height: 9.313rem;
-  grid-template-columns: 25.3125rem 65rem 29.6875rem;
+  grid-template-columns: auto auto auto;
   background-color: #161032;
 }
 
 header .logo {
   width: 6.25rem;
   height: 6rem;
-  top: 1.5rem;
+  margin-top: 1.5rem;
+  margin-left: 19.0625rem;
   background-image: url("../Group 1418.png");
   background-size: contain;
   background-repeat: no-repeat;
-  justify-self: end;
-  position: relative;
 }
 
 header .menu {
@@ -99,9 +98,9 @@ header .menu {
   height: 2.5rem;
   gap: 1.4063rem;
   grid-template-columns: repeat(6, auto);
-  left: 12.3125rem;
-  top: 3.375rem;
-  position: relative;
+  margin-left: 12.3125rem;
+  margin-right: 7.8125rem;
+  margin-top: 3.375rem;
   align-items: center;
   justify-items: center;
 }
@@ -114,7 +113,8 @@ header .menu a {
 header .header-button {
   width: 10.6875rem;
   height: 3.625rem;
-  justify-self: start;
+  margin-left: 7.8125rem;
+  margin-right: 19.0625rem;
   align-self: center;
 }
 
