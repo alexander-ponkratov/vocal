@@ -176,7 +176,7 @@ header .header-button {
 }
 
 .long .about {
-  padding-top: 5rem;
+  margin-top: 5rem;
   color: black;
 }
 
@@ -288,6 +288,96 @@ header .header-button {
 .long .infog-1-div .infog-1 {
   width: 6.25rem;
   height: 6.25rem;
+}
+
+.long .infog-text {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 2.8125rem;
+  gap: 10.9375rem;
+}
+
+.long .infog-text .infog-p {
+  width: 20rem;
+  height: 4.1875rem;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.long .yt-set {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  gap: 2.5rem;
+  margin-top: 10rem;
+}
+
+.long .yt-set .yt-vid {
+  border-radius: 1.25rem;
+}
+
+.long .otzyvy {
+  color: black;
+  justify-self: start;
+  margin-left: 21.25rem;
+  margin-top: 2.5rem;
+}
+
+.long .otzyvy-set {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 0.625rem;
+  margin-top: 2.3125rem;
+}
+
+.long .otzyvy-set .otzyv {
+  position: relative;
+  width: 26.875rem;
+  height: 20rem;
+  filter: drop-shadow(0.0625rem 0.1875rem 1.25rem rgba(0, 0, 0, 0.25));
+  border: 1px solid black;
+  border-radius: 1.25rem;
+}
+
+.long .otzyvy-set .otzyv .otzyv-pic {
+  position: absolute;
+  width: 6.25rem;
+  height: 6.25rem;
+  top: 1.125rem;
+  left: 1.1875rem;
+}
+
+.long .otzyvy-set .otzyv .otzyv-name {
+  position: absolute;
+  margin-left: 8.125rem;
+  margin-top: 3rem;
+  font-weight: 600;
+}
+
+.long .otzyvy-set .otzyv .otzyv-stars {
+  position: absolute;
+  margin-top: 8.625rem;
+  margin-left: 1.1875rem;
+}
+
+.long .otzyvy-set .otzyv .otzyv-score {
+  position: absolute;
+  margin-top: 8rem;
+  margin-left: 18.8125rem;
+  color: black;
+}
+
+.long .otzyvy-set .otzyv .otzyv-text {
+  position: absolute;
+  margin-top: 11.375rem;
+  margin-left: 1.1875rem;
+  color: black;
+}
+
+.long .heading-2 {
+  color: black;
+  margin-top: 5rem;
 }
 
 @media screen and (max-width: 1024px) {
