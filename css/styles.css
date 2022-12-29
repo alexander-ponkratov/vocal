@@ -328,7 +328,7 @@ header .header-button {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 0.625rem;
-  margin-top: 2.3125rem;
+  margin-top: 4.6875rem;
 }
 
 .long .otzyvy-set .otzyv {
@@ -375,20 +375,51 @@ header .header-button {
   color: black;
 }
 
-.long .heading-2 {
+.long .t-contacts {
   color: black;
   margin-top: 5rem;
 }
 
-@media screen and (max-width: 1024px) {
+.long .contacts-block {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 7.375rem;
+  margin-top: 5rem;
+  height: 29.75rem;
+}
+
+.long .contacts-block .contacts-info .b-t-p {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 1.5625rem;
+  margin-top: .625rem;
+  color: black;
+}
+
+.long .contacts-block .contacts-info .icons-set {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  align-self: end;
+  gap: 2.0938rem;
+  margin-bottom: 0;
+  margin-top: 19.375rem;
+}
+
+@media screen and (max-width: 1440px) {
   .regular-text {
-    font-size: 14px;
+    font-size: 10px;
+  }
+  .regular-text-2 {
+    font-size: 10px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .regular-text {
-    font-size: 12px;
+    font-size: 8px;
+  }
+  .regular-text-2 {
+    font-size: 8px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
