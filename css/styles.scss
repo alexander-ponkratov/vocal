@@ -368,7 +368,7 @@ header {
                 display: grid;
                 grid-template-rows: auto auto auto;
                 gap: 1.5625rem;
-                margin-top: .625rem;
+                margin-top: 0.625rem;
                 color: black;
             }
             .icons-set {
@@ -378,6 +378,28 @@ header {
                 gap: 2.0938rem;
                 margin-bottom: 0;
                 margin-top: 19.375rem;
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: $purple;
+    height: 340px;
+    .container {
+        max-width: 1313px;
+        .footer-block {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            .footer-menu {
+            }
+            .footer-pic {
+            }
+            .button-set {
+                .footer-button-buy {
+                }
+                .footer-button-meet {
+                }
             }
         }
     }
