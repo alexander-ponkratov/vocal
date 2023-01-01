@@ -21,6 +21,16 @@ button {
     overflow: hidden;
 }
 
+.container {
+    max-width: 1313px;
+    margin: 0px auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 .button-1 {
     background: #ffc53a;
     box-shadow: 0.0625rem 0.1875rem 1.25rem rgba(209, 24, 24, 0.25);
@@ -390,52 +400,43 @@ footer {
     background-color: $purple;
     height: 21.25rem;
     overflow: hidden;
-    .container {
-        max-width: 1313px;
-        margin: 0px auto;
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        .footer-block {
-            display: inline-grid;
-            grid-template-columns: auto auto auto;
-            width: 100%;
-            align-items: center;
-            .footer-menu {
-                justify-self: start;
-                .footer-ul {
-                    list-style-type: none;
-                    .footer-li-1 {
-                        color: $yellow;
-                    }
-                    .footer-li {
-                        margin-top: 1.25rem;
-                        color: $yellow;
-                    }
-                }
-            }
-            .footer-pic {
-                width: 160px;
-                height: 160px;
-                justify-self: center;
-            }
-            .button-set {
-                justify-self: end;
-                .footer-button-buy {
-                    width: 177px;
-                    height: 56px;
-                    color: black;
-                }
-                .footer-button-meet {
-                    width: 171px;
-                    height: 56px;
+    .footer-block {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+        align-items: center;
+        .footer-menu {
+            justify-self: start;
+            .footer-ul {
+                list-style-type: none;
+                .footer-li-1 {
                     color: $yellow;
                 }
-                .footer-button-meet::before {
-                    background-color: $purple;
+                .footer-li {
+                    margin-top: 1.25rem;
+                    color: $yellow;
                 }
+            }
+        }
+        .footer-pic {
+            width: 160px;
+            height: 160px;
+            justify-self: center;
+        }
+        .button-set {
+            justify-self: end;
+            .footer-button-buy {
+                width: 177px;
+                height: 56px;
+                color: black;
+            }
+            .footer-button-meet {
+                width: 171px;
+                height: 56px;
+                color: $yellow;
+            }
+            .footer-button-meet::before {
+                background-color: $purple;
             }
         }
     }

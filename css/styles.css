@@ -19,6 +19,16 @@ button {
   overflow: hidden;
 }
 
+.container {
+  max-width: 1313px;
+  margin: 0px auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .button-1 {
   background: #ffc53a;
   box-shadow: 0.0625rem 0.1875rem 1.25rem rgba(209, 24, 24, 0.25);
@@ -414,63 +424,53 @@ footer {
   overflow: hidden;
 }
 
-footer .container {
-  max-width: 1313px;
-  margin: 0px auto;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-footer .container .footer-block {
+footer .footer-block {
   display: inline-grid;
   grid-template-columns: auto auto auto;
   width: 100%;
   align-items: center;
 }
 
-footer .container .footer-block .footer-menu {
+footer .footer-block .footer-menu {
   justify-self: start;
 }
 
-footer .container .footer-block .footer-menu .footer-ul {
+footer .footer-block .footer-menu .footer-ul {
   list-style-type: none;
 }
 
-footer .container .footer-block .footer-menu .footer-ul .footer-li-1 {
+footer .footer-block .footer-menu .footer-ul .footer-li-1 {
   color: #ffc53a;
 }
 
-footer .container .footer-block .footer-menu .footer-ul .footer-li {
+footer .footer-block .footer-menu .footer-ul .footer-li {
   margin-top: 1.25rem;
   color: #ffc53a;
 }
 
-footer .container .footer-block .footer-pic {
+footer .footer-block .footer-pic {
   width: 160px;
   height: 160px;
   justify-self: center;
 }
 
-footer .container .footer-block .button-set {
+footer .footer-block .button-set {
   justify-self: end;
 }
 
-footer .container .footer-block .button-set .footer-button-buy {
+footer .footer-block .button-set .footer-button-buy {
   width: 177px;
   height: 56px;
   color: black;
 }
 
-footer .container .footer-block .button-set .footer-button-meet {
+footer .footer-block .button-set .footer-button-meet {
   width: 171px;
   height: 56px;
   color: #ffc53a;
 }
 
-footer .container .footer-block .button-set .footer-button-meet::before {
+footer .footer-block .button-set .footer-button-meet::before {
   background-color: #161032;
 }
 
