@@ -442,12 +442,14 @@ footer .container .footer-block .footer-menu .footer-ul .footer-li-1 {
 }
 
 footer .container .footer-block .footer-menu .footer-ul .footer-li {
+  margin-top: 20px;
   color: #ffc53a;
 }
 
 footer .container .footer-block .footer-pic {
   width: 160px;
   height: 160px;
+  justify-self: center;
 }
 
 footer .container .footer-block .button-set {
@@ -457,11 +459,17 @@ footer .container .footer-block .button-set {
 footer .container .footer-block .button-set .footer-button-buy {
   width: 177px;
   height: 56px;
+  color: black;
 }
 
 footer .container .footer-block .button-set .footer-button-meet {
   width: 171px;
   height: 56px;
+  color: #ffc53a;
+}
+
+footer .container .footer-block .button-set .footer-button-meet::before {
+  background-color: #161032;
 }
 
 @media screen and (max-width: 1440px) {

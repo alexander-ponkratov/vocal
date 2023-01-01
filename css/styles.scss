@@ -409,6 +409,7 @@ footer {
                         color: $yellow;
                     }
                     .footer-li {
+                        margin-top: 20px;
                         color: $yellow;
                     }
                 }
@@ -416,16 +417,22 @@ footer {
             .footer-pic {
                 width: 160px;
                 height: 160px;
+                justify-self: center;
             }
             .button-set {
                 justify-self: end;
                 .footer-button-buy {
                     width: 177px;
                     height: 56px;
+                    color: black;
                 }
                 .footer-button-meet {
                     width: 171px;
                     height: 56px;
+                    color: $yellow;
+                }
+                .footer-button-meet::before {
+                    background-color: $purple;
                 }
             }
         }
