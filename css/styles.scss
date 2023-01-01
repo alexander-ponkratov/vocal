@@ -363,6 +363,7 @@ header {
         gap: 7.375rem;
         margin-top: 5rem;
         height: 29.75rem;
+        overflow: hidden;
         .map {
         }
         .contacts-info {
@@ -388,6 +389,7 @@ header {
 footer {
     background-color: $purple;
     height: 21.25rem;
+    overflow: hidden;
     .container {
         max-width: 1313px;
         margin: 0px auto;
@@ -409,7 +411,7 @@ footer {
                         color: $yellow;
                     }
                     .footer-li {
-                        margin-top: 20px;
+                        margin-top: 1.25rem;
                         color: $yellow;
                     }
                 }

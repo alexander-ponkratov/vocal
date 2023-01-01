@@ -388,6 +388,7 @@ header .header-button {
   gap: 7.375rem;
   margin-top: 5rem;
   height: 29.75rem;
+  overflow: hidden;
 }
 
 .long .contacts-block .contacts-info .b-t-p {
@@ -410,6 +411,7 @@ header .header-button {
 footer {
   background-color: #161032;
   height: 21.25rem;
+  overflow: hidden;
 }
 
 footer .container {
@@ -442,7 +444,7 @@ footer .container .footer-block .footer-menu .footer-ul .footer-li-1 {
 }
 
 footer .container .footer-block .footer-menu .footer-ul .footer-li {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   color: #ffc53a;
 }
 
