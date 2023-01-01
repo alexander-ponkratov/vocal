@@ -251,7 +251,7 @@ header {
     .div-line {
         margin-top: 5rem;
         .line {
-            width: 1000px;
+            width: 62.5rem;
             height: 0px;
             border: 1px solid #0f0202;
         }
@@ -294,6 +294,8 @@ header {
         gap: 2.5rem;
         margin-top: 10rem;
         .yt-vid {
+            width: 37.375rem;
+            height: 18.25rem;
             border-radius: 1.25rem;
         }
     }
@@ -386,14 +388,18 @@ header {
 footer {
     background-color: $purple;
     height: 340px;
+    display: grid;
+    align-content: center;
     .container {
         max-width: 1313px;
-        margin: 0px auto;
         .footer-block {
             display: inline-grid;
             grid-template-columns: auto auto auto;
             width: 100%;
+            margin-right: auto;
+            margin-left: auto;
             .footer-menu {
+                justify-self: start;
                 .footer-ul {
                     list-style-type: none;
                     .footer-li-1 {

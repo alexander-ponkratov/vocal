@@ -268,7 +268,7 @@ header .header-button {
 }
 
 .long .div-line .line {
-  width: 1000px;
+  width: 62.5rem;
   height: 0px;
   border: 1px solid #0f0202;
 }
@@ -314,6 +314,8 @@ header .header-button {
 }
 
 .long .yt-set .yt-vid {
+  width: 37.375rem;
+  height: 18.25rem;
   border-radius: 1.25rem;
 }
 
@@ -408,17 +410,24 @@ header .header-button {
 footer {
   background-color: #161032;
   height: 340px;
+  display: grid;
+  align-content: center;
 }
 
 footer .container {
   max-width: 1313px;
-  margin: 0px auto;
 }
 
 footer .container .footer-block {
   display: inline-grid;
   grid-template-columns: auto auto auto;
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer .container .footer-block .footer-menu {
+  justify-self: start;
 }
 
 footer .container .footer-block .footer-menu .footer-ul {
