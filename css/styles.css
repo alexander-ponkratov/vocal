@@ -426,6 +426,7 @@ footer .container .footer-block {
   display: inline-grid;
   grid-template-columns: auto auto auto;
   width: 100%;
+  align-items: center;
 }
 
 footer .container .footer-block .footer-menu {
@@ -444,8 +445,23 @@ footer .container .footer-block .footer-menu .footer-ul .footer-li {
   color: #ffc53a;
 }
 
+footer .container .footer-block .footer-pic {
+  width: 160px;
+  height: 160px;
+}
+
 footer .container .footer-block .button-set {
   justify-self: end;
+}
+
+footer .container .footer-block .button-set .footer-button-buy {
+  width: 177px;
+  height: 56px;
+}
+
+footer .container .footer-block .button-set .footer-button-meet {
+  width: 171px;
+  height: 56px;
 }
 
 @media screen and (max-width: 1440px) {

@@ -400,6 +400,7 @@ footer {
             display: inline-grid;
             grid-template-columns: auto auto auto;
             width: 100%;
+            align-items: center;
             .footer-menu {
                 justify-self: start;
                 .footer-ul {
@@ -413,12 +414,18 @@ footer {
                 }
             }
             .footer-pic {
+                width: 160px;
+                height: 160px;
             }
             .button-set {
                 justify-self: end;
                 .footer-button-buy {
+                    width: 177px;
+                    height: 56px;
                 }
                 .footer-button-meet {
+                    width: 171px;
+                    height: 56px;
                 }
             }
         }
