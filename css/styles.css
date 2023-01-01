@@ -405,18 +405,36 @@ header .header-button {
   margin-top: 19.375rem;
 }
 
-.footer {
+footer {
   background-color: #161032;
   height: 340px;
 }
 
-.footer .container {
+footer .container {
   max-width: 1313px;
+  margin: 0px auto;
 }
 
-.footer .container .footer-block {
-  display: grid;
+footer .container .footer-block {
+  display: inline-grid;
   grid-template-columns: auto auto auto;
+  width: 100%;
+}
+
+footer .container .footer-block .footer-menu .footer-ul {
+  list-style-type: none;
+}
+
+footer .container .footer-block .footer-menu .footer-ul .footer-li-1 {
+  color: #ffc53a;
+}
+
+footer .container .footer-block .footer-menu .footer-ul .footer-li {
+  color: #ffc53a;
+}
+
+footer .container .footer-block .button-set {
+  justify-self: end;
 }
 
 @media screen and (max-width: 1440px) {
