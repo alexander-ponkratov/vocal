@@ -409,9 +409,7 @@ header .header-button {
 
 footer {
   background-color: #161032;
-  height: 340px;
-  display: grid;
-  align-content: center;
+  height: 21.25rem;
 }
 
 footer .container {
