@@ -414,14 +414,18 @@ footer {
 
 footer .container {
   max-width: 1313px;
+  margin: 0px auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 footer .container .footer-block {
   display: inline-grid;
   grid-template-columns: auto auto auto;
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 footer .container .footer-block .footer-menu {
